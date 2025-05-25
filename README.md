@@ -19,7 +19,7 @@ This is a simple React-based dice game called **Tenzie**. The goal is to roll di
 ## Screenshots
 
 ![Game screenshot](./screenshots/tenzie-screenshot.png)
-![Game screenshot](./screenshots/tenzie-screenshot-2.png)
+![Game screenshot](./screenshots/tenzie-screenshot-celebration.png)
 
 Enjoy the game!
 
