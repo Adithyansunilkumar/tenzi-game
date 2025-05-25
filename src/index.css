@@ -21,7 +21,7 @@ main {
    width: 90vw;
    max-width: 480px;
    aspect-ratio: 1 / 1;
-   background-color: hsl(0, 0%, 96%);
+   background-color: #f5f5f5;
    border-radius: 10px;
 }
 .heading {
@@ -56,7 +56,7 @@ main {
    user-select: none;
 }
 .red {
-   color: rgb(255, 108, 108);
+   color: rgb(255, 155, 108);
 }
 .dies-div {
    display: grid;
@@ -105,7 +105,7 @@ main {
    cursor: default;
 }
 .win{
-   background-color: hsl(143, 100%, 88%);
+   background-color: #c2ffd9;
 }
 .warning{
    font-family: "Karla", sans-serif;
@@ -126,7 +126,7 @@ main {
    height: 60px;
 }
 .roll-btn {
-   background-color: #6264ee;
+   background-color: #d3b092;
    border: none;
    border-radius: 4px;
    box-shadow: 0 3.2px 7.7px 0 rgba(0, 0, 0, 0.18);

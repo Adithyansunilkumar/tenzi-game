@@ -144,7 +144,7 @@ const App = () => {
          {gameWon && (
             <Confetti numberOfPieces={80} width={width} height={height} />
          )}
-         <h1 className="heading">{gameWon?"You won":"Tenzi"}</h1>
+         <h1 className="heading">{gameWon?"You won":"Tenzie"}</h1>
          <p className="instructions">
             Start and roll until all dice are the same.
             <br />
