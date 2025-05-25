@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+#root {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 100vh;
+   background-color: hsl(203, 65%, 13%);
+}
+main {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 25px;
+   width: 90vw;
+   max-width: 480px;
+   aspect-ratio: 1 / 1;
+   background-color: hsl(0, 0%, 96%);
+   border-radius: 10px;
+}
+.heading {
+   font-family: "Karla", sans-serif;
+   margin-bottom: 18px;
+}
+.you-won {
+   font-family: "Karla", sans-serif;
+}
+.instructions {
+   text-align: center;
+   font-family: "Karla", sans-serif;
+   margin-bottom: 18px;
+   user-select: none;
+}
+.round-detials-div {
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   width: 80%;
+   height: 60px;
+}
+.round-detials-div div {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   width: 100px;
+   height: 50px;
+   font-family: "Karla", sans-serif;
+   font-weight: bold;
+   user-select: none;
+}
+.red {
+   color: rgb(255, 108, 108);
+}
+.dies-div {
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   grid-template-rows: 1fr 1fr;
+   align-items: center;
+   justify-items: center;
+   width: 90%;
+   height: 120px;
+   margin-bottom: 18px;
+}
+.die {
+   background-color: #fff;
+   border-radius: 4px;
+   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15);
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: Karla, sans-serif;
+   font-size: 1.3rem;
+   font-weight: bold;
+   height: 44px;
+   width: 44px;
+   user-select: none;
+}
+.die-1{
+   width: 8px;
+}
+.die-2{
+   width: 30px;
+}
+.die-3{
+   width: 32px;
+}
+.die-4{
+   width: 32px;
+}
+.die-5{
+   width: 32px;
+}
+.die-6{
+   width: 29px;
+}
+.disabled{
+   cursor: default;
+}
+.win{
+   background-color: hsl(143, 100%, 88%);
+}
+.warning{
+   font-family: "Karla", sans-serif;
+   font-size: 14px;
+   color: red;
+}
+.hide-warning{
+   opacity: 0;
+}
+.held {
+   background-color: hsl(30, 19%, 84%);
+}
+.buttons-div {
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   width: 90%;
+   height: 60px;
+}
+.roll-btn {
+   background-color: #6264ee;
+   border: none;
+   border-radius: 4px;
+   box-shadow: 0 3.2px 7.7px 0 rgba(0, 0, 0, 0.18);
+   color: #fff;
+   cursor: pointer;
+   font-family: Karla, sans-serif;
+   height: 40px;
+   width: 100px;
+   outline: none;
+   user-select: none;
+}
+.start-btn {
+   background-color: #3cc48f;
+   border: none;
+   border-radius: 4px;
+   box-shadow: 0 3.2px 7.7px 0 rgba(0, 0, 0, 0.18);
+   color: #fff;
+   cursor: pointer;
+   font-family: Karla, sans-serif;
+   height: 40px;
+   width: 100px;
+   outline: none;
+   user-select: none;
+}
